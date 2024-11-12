@@ -5,13 +5,12 @@ Exoplanet ML is a machine learning project dedicated to the detection of exoplan
 ## Machine Learning Algorithms
 
 - Random Forest Classifier
-- Naive Bayes
 - LightGBM
-- XGBoost
 - AdaBoost
 - Histogram Gradient Boosting
-- Multi Layer Perceptron
-- Neural Network
+- XGBoost
+- XGBoost Calibrated
+
 
 ## Important Notebooks
 
