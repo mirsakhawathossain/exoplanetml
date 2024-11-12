@@ -35,13 +35,10 @@
         <h2>Machine Learning Algorithms</h2>
         <ul>
             <li>Random Forest Classifier</li>
-            <li>Naive Bayes</li>
-            <li>LightGBM</li>
-            <li>XGBoost</li>
             <li>AdaBoost</li>
             <li>Histogram Gradient Boosting</li>
-            <li>Multi-Layer Perceptron</li>
-            <li>Neural Network</li>
+            <li>XGBoost</li>
+            <li>XGBoost Calibrated</li>
         </ul>
     </div>
 
