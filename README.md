@@ -1,134 +1,111 @@
+# Exoplanet ML
 
-</head>
-<body>
-    <h1>Exoplanet ML</h1>
-    <p>Exoplanet ML is a machine learning project dedicated to the detection of exoplanets using transit survey-based light curves. This project leverages advanced machine learning algorithms and feature engineering techniques to improve the accuracy and efficiency of exoplanet discovery.</p>
+This is a machine learning project for detecting exoplanets using transit survey-based light curves.
 
- <div class="toc section">
-        <h2>Table of Contents</h2>
-        <ul>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#machine-learning-algorithms">Machine Learning Algorithms</a></li>
-            <li><a href="#important-notebooks">Important Notebooks</a></li>
-            <li><a href="#important-links">Important Links</a></li>
-            <li><a href="#dimensionality-reduction">Dimensionality Reduction</a></li>
-            <li><a href="#tsfresh-feature-selection">TsFresh Feature Selection</a></li>
-            <li><a href="#installation">Installation</a></li>
-            <li><a href="#usage">Usage</a></li>
-            <li><a href="#contributing">Contributing</a></li>
-            <li><a href="#license">License</a></li>
-        </ul>
-    </div>
+## Machine Learning Algorithms
 
-<div class="section" id="features">
-        <h2>Features</h2>
-        <ul>
-            <li>Detection of exoplanets using transit-based light curves</li>
-            <li>Implementation of various machine learning classifiers</li>
-            <li>Advanced feature engineering with time-series data</li>
-            <li>Dimensionality reduction for improved model performance</li>
-            <li>Comprehensive Jupyter notebooks for exploration and analysis</li>
-        </ul>
-    </div>
+- Random Forest Classifier
+- Naive Bayes
+- LightGBM
+- XGBoost
+- AdaBoost
+- Histogram Gradient Boosting
+- Multi Layer Perceptron
+- Neural Network
 
-<div class="section" id="machine-learning-algorithms">
-        <h2>Machine Learning Algorithms</h2>
-        <ul>
-            <li>Random Forest Classifier</li>
-            <li>AdaBoost</li>
-            <li>Histogram Gradient Boosting</li>
-            <li>XGBoost</li>
-            <li>XGBoost Calibrated</li>
-        </ul>
-    </div>
+## Important Notebooks
 
-<div class="section" id="important-notebooks">
-        <h2>Important Notebooks</h2>
-        <ul>
-            <li><a href="https://spacetelescope.github.io/notebooks/notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.html" target="_blank" rel="noopener noreferrer">Kepler Lightcurve Analysis</a></li>
-            <!-- Add more notebooks here as needed -->
-        </ul>
-    </div>
+- [Kepler Lightcurve Notebook](https://spacetelescope.github.io/notebooks/notebooks/MAST/Kepler/Kepler_Lightcurve/kepler_lightcurve.html)
 
-<div class="section" id="important-links">
-        <h2>Important Links</h2>
-        <ul>
-            <li><a href="https://www.rasgoml.com/feature-engineering-tutorials/how-to-create-time-series-features-with-tsfresh" target="_blank" rel="noopener noreferrer">Feature Engineering with TsFresh</a></li>
-            <li><a href="https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html" target="_blank" rel="noopener noreferrer">Exoplanet Archive Acknowledgement</a></li>
-            <li><a href="https://exoplanetarchive.ipac.caltech.edu/docs/doi.html" target="_blank" rel="noopener noreferrer">Exoplanet Archive DOI</a></li>
-            <li><a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=kep_conf_names" target="_blank" rel="noopener noreferrer">Exoplanet Archive Table</a></li>
-            <li><a href="https://exoplanetarchive.ipac.caltech.edu/docs/table-redirect.html" target="_blank" rel="noopener noreferrer">Exoplanet Archive Table Redirect</a></li>
-        </ul>
-    </div>
+## Important Links
 
-<div class="section" id="dimensionality-reduction">
-        <h2>Dimensionality Reduction</h2>
-        <ul>
-            <li><a href="https://www.kaggle.com/code/samuelcortinhas/intro-to-pca-t-sne-umap" target="_blank" rel="noopener noreferrer">Introduction to PCA, t-SNE, and UMAP</a></li>
-            <li><a href="https://plotly.com/python/t-sne-and-umap-projections/" target="_blank" rel="noopener noreferrer">Plotly: t-SNE and UMAP Projections</a></li>
-            <li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.KernelPCA.html" target="_blank" rel="noopener noreferrer">KernelPCA in Scikit-Learn</a></li>
-            <li><a href="https://pair-code.github.io/understanding-umap/" target="_blank" rel="noopener noreferrer">Understanding UMAP</a></li>
-            <li><a href="https://umap-learn.readthedocs.io/en/latest/basic_usage.html" target="_blank" rel="noopener noreferrer">UMAP Basic Usage</a></li>
-        </ul>
-    </div>
+- [Feature Engineering with TSFresh](https://www.rasgoml.com/feature-engineering-tutorials/how-to-create-time-series-features-with-tsfresh)
+- [Exoplanet Archive Acknowledgements](https://exoplanetarchive.ipac.caltech.edu/docs/acknowledge.html)
+- [Exoplanet Archive DOI](https://exoplanetarchive.ipac.caltech.edu/docs/doi.html)
+- [Exoplanet Archive Table View](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=kep_conf_names)
+- [Exoplanet Archive Table Redirect](https://exoplanetarchive.ipac.caltech.edu/docs/table-redirect.html)
 
-<div class="section" id="tsfresh-feature-selection">
-        <h2>TsFresh Feature Selection</h2>
-        <ul>
-            <li><a href="https://tsfresh.readthedocs.io/en/latest/api/tsfresh.feature_selection.html" target="_blank" rel="noopener noreferrer">TsFresh Feature Selection Documentation</a></li>
-            <li><a href="https://blog.mindmetawithminesh.com/tsfresh-feature-extraction-by-distributed-and-parallel-means-for-industrial-big-data-applications-d84e97047024" target="_blank" rel="noopener noreferrer">TsFresh Feature Extraction for Industrial Big Data Applications</a></li>
-        </ul>
-    </div>
+## Dimensionality Reduction
 
-<div class="section" id="installation">
-        <h2>Installation</h2>
-        <p>Follow these steps to set up the Exoplanet ML project locally:</p>
-        <pre><code>git clone https://github.com/yourusername/exoplanet-ml.git
-cd exoplanet-ml
-pip install -r requirements.txt
-</code></pre>
-        <p>Ensure you have Python 3.7 or higher installed. It's recommended to use a virtual environment:</p>
-        <pre><code>python -m venv venv
-source venv/bin/activate  <!-- On Windows use `venv\Scripts\activate` -->
-pip install -r requirements.txt
-</code></pre>
-    </div>
+- [Introduction to PCA, t-SNE, and UMAP](https://www.kaggle.com/code/samuelcortinhas/intro-to-pca-t-sne-umap)
+- [Plotly t-SNE and UMAP Projections](https://plotly.com/python/t-sne-and-umap-projections/)
+- [Kernel PCA in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.KernelPCA.html)
+- [Understanding UMAP](https://pair-code.github.io/understanding-umap/)
+- [UMAP Documentation](https://umap-learn.readthedocs.io/en/latest/basic_usage.html)
 
-<div class="section" id="usage">
-        <h2>Usage</h2>
-        <p>After installation, you can start by exploring the Jupyter notebooks provided. To launch Jupyter Notebook, run:</p>
-        <pre><code>jupyter notebook
-</code></pre>
-        <p>Navigate to the desired notebook (e.g., <code>Kepler_Lightcurve.ipynb</code>) and execute the cells to begin analyzing exoplanet light curves.</p>
-        <p>For command-line usage or integration into your own scripts, refer to the <code>src/</code> directory where the main modules and scripts are located.</p>
-    </div>
+## TsFresh Feature Selection
 
-<div class="section" id="contributing">
-        <h2>Contributing</h2>
-        <p>Contributions are welcome! To contribute to Exoplanet ML, please follow these guidelines:</p>
-        <ol>
-            <li>Fork the repository on GitHub.</li>
-            <li>Clone your fork to your local machine:</li>
-            <pre><code>git clone https://github.com/yourusername/exoplanet-ml.git
-cd exoplanet-ml
-</code></pre>
-            <li>Create a new branch for your feature or bugfix:</li>
-            <pre><code>git checkout -b feature/your-feature-name
-</code></pre>
-            <li>Make your changes and commit them with clear messages:</li>
-            <pre><code>git commit -m "Add feature XYZ"
-</code></pre>
-            <li>Push your changes to your fork:</li>
-            <pre><code>git push origin feature/your-feature-name
-</code></pre>
-            <li>Open a pull request on the main repository describing your changes.</li>
-        </ol>
-        <p>Please ensure your code follows the project's coding standards and includes appropriate tests.</p>
-    </div>
+- [TsFresh API Documentation](https://tsfresh.readthedocs.io/en/latest/api/tsfresh.feature_selection.html)
+- [TsFresh for Industrial Applications](https://blog.mindmeldwithminesh.com/tsfresh-feature-extraction-by-distributed-and-parallel-means-for-industrial-big-data-applications-d84e9704702f)
 
-<div class="section" id="license">
-        <h2>License</h2>
-        <p>This project is licensed under the <a href="LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>. You are free to use, modify, and distribute this project as per the license terms.</p>
-    </div>
-</body>
-</html>
+## Scikit Learn Supervised Learning List and Description
+
+- [Scikit Learn Supervised Learning](https://scikit-learn.org/stable/supervised_learning.html)
+
+## Gaussian Process
+
+- [Scikit Learn Gaussian Process](https://scikit-learn.org/stable/modules/gaussian_process.html)
+- [Gaussian Process Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessClassifier.html)
+- [Gaussian Process Kernels](https://scikit-learn.org/stable/modules/gaussian_process.html#gp-kernels)
+
+## Scikit Learn Unsupervised Learning List and Description
+
+- [Scikit Learn Unsupervised Learning](https://scikit-learn.org/stable/unsupervised_learning.html)
+
+## Dask Blog for Hyperband
+
+- [Dask Hyperparameter Optimization](https://blog.dask.org/2019/09/30/dask-hyperparam-opt#appendix)
+
+## Low Variance Filter
+
+- [Beginners Guide to Low Variance Filter](https://www.analyticsvidhya.com/blog/2021/04/beginners-guide-to-low-variance-filter-and-its-implementation/)
+
+## Common Pitfalls in the Interpretation of Coefficients of Linear Models
+
+- [Interpretation of Coefficients](https://scikit-learn.org/stable/auto_examples/inspection/plot_linear_model_coefficient_interpretation.html)
+
+## Cross-validation: Evaluating Estimator Performance
+
+- [Cross-validation Overview](https://scikit-learn.org/stable/modules/cross_validation.html#stratification)
+
+## Feature Engineering Techniques
+
+- [Feature Selection Techniques - Analytics Vidhya](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
+- [Feature Selection Techniques - JavaTpoint](https://www.javatpoint.com/feature-selection-techniques-in-machine-learning)
+
+## Hyperopt Hyperparameter Tuning
+
+- [Hyperopt Getting Started](http://hyperopt.github.io/hyperopt/getting-started/search_spaces/)
+- [Hyperopt Tutorial on Kaggle](https://www.kaggle.com/code/fanvacoolt/tutorial-on-hyperopt/notebook)
+
+## Incremental Principal Component Analysis
+
+- [Principal Component Analysis with Python](https://www.geeksforgeeks.org/principal-component-analysis-with-python/)
+- [Incremental PCA in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.IncrementalPCA.html)
+
+## Neural Network
+
+- [Use Keras Models with Scikit-Learn](https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/)
+- [Grid Search Hyperparameters with Keras](https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/)
+
+## Quantum Neural Net
+
+- [Quantum Machine Learning with Python](https://towardsdatascience.com/quantum-machine-learning-with-python-kernel-methods-and-neural-networks-d60738aa99e1)
+- [Quantum Machine Learning Tutorial](https://www.whiteboxml.com/en/blog/quantum-machine-learning-from-zero-to-hero)
+
+## Scikit Learn Plotting
+
+- [Scikit Learn Display Object Visualization](https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_display_object_visualization.html)
+- [Confusion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
+
+## Probability Calibration
+
+- [Probability Calibration in scikit-learn](https://scikit-learn.org/stable/modules/calibration.html)
+- [Calibrated Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.calibration.CalibratedClassifierCV.html)
+
+## Technical Problem Solution and Miscellaneous Links
+
+- [Issue #1280 - YOLOv7](https://github.com/WongKinYiu/yolov7/issues/1280)
+- [Scikit Optimize Issues](https://github.com/scikit-optimize/scikit-optimize/issues)
+
+![Exoplanet Image](/Images/Hr8799_orbit_hd.gif)
