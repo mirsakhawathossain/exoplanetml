@@ -82,15 +82,9 @@ Exoplanet ML is a machine learning project dedicated to the detection of exoplan
 - [Principal Component Analysis with Python](https://www.geeksforgeeks.org/principal-component-analysis-with-python/)
 - [Incremental PCA in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.IncrementalPCA.html)
 
-## Neural Network
 
-- [Use Keras Models with Scikit-Learn](https://machinelearningmastery.com/use-keras-deep-learning-models-scikit-learn-python/)
-- [Grid Search Hyperparameters with Keras](https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/)
 
-## Quantum Neural Net
 
-- [Quantum Machine Learning with Python](https://towardsdatascience.com/quantum-machine-learning-with-python-kernel-methods-and-neural-networks-d60738aa99e1)
-- [Quantum Machine Learning Tutorial](https://www.whiteboxml.com/en/blog/quantum-machine-learning-from-zero-to-hero)
 
 ## Scikit Learn Plotting
 
